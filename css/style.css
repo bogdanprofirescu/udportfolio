@@ -15,7 +15,7 @@ a:hover, a:active { color: #c00; outline: 0; }
 
 b, strong { font-weight: bold; }
 pre, code { font-family: monospace, monospace; font-size: 1em; }
-ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
+ul, ol { margin: 1em 0; margin-bottom: 0px; padding: 0 0 0 20px; }
 img { border: 0; max-width: 100%; }
 
 body { background: #fff; }
@@ -28,15 +28,16 @@ header span { font-size: 1em; font-weight: bold; padding-top: 0px;margin-top: 0p
                 padding-bottom: 1em; font-style: italic;}
 
 
-.hero { padding: 18px; background-color: #f8f8f8; font-size:1.2em;
+.hero { padding: 18px; background-color: #f8f8f8; font-size:1 em;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }
 
-.content { padding: 1em 1em; }
+.content { padding: 0em 0em; }
 .content li { list-style-type: none; font-size: 1.1em;}
-li img { float:left; padding-right: 1em; max-width:120px; max-height: 60px;}
-li p { font-size: 0.9em; font-style: italic; }
+li {height:90px; margin-top: 0px;}
+li img { float:left; padding-right: 1em; width:96px; height: 64px;}
+li p { font-size: 0.9em; font-style: italic; margin-top: 7px; margin-bottom: 7px;}
 
 footer {
   padding: 0 0.5em;
